@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PdfiumViewer.Native.x86_64.no_v8-no_xfa</id>
+    <version>$version$</version>
+    <title>PdfiumViewer 64-bit native PDFium DLL without V8 or XFA support</title>
+    <authors>Jason Hill</authors>
+    <owners>Jason Hill</owners>
+	<license type="expression">Apache-2.0</license>
+    <projectUrl>https://github.com/jay-hill/PdfiumBinariesPackager</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Native 64-bit PDFium DLL without V8 or XFA support for usage with fork of the PdfiumViewer project (https://github.com/jay-hill/PdfiumViewer).</description>
+    <copyright>Jason Hill © 2020</copyright>
+    <tags>pdf viewer pdfium</tags>
+  </metadata>
+  <files>
+    <file src="..\pack\pdfium-windows-x64\x64\bin\pdfium.dll" target="Build\x64" />
+    <file src="PdfiumViewer.Native.x86_64.no_v8-no_xfa.props" target="Build" />
+  </files>
+</package>
